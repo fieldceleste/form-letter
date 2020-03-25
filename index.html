@@ -14,23 +14,27 @@
     <div class="jumbotron">
       <h1>A letter from the Easter Bunny</h1>
       <h2>Please type your name below to receive your letter!</h2>
-      <div>
+    </div>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="name1">Full Name:</label>
+        <input id="name1" class="form-control" type="text">
       </div>
-      <form id="formOne">
-        <div class="form-group">
-          <label for="name1">Full Name:</label>
-          <input id="name1" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Show me my letter!</button>
-      </form>
-      <div id="letter">
-        <p>Dear <span class="name1"></span>,</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-          -Sincerely "The Easter Bunny"</p>
+      <button type="submit" class="btn">Show me my letter!</button>
+    </form>
+    <div id="letter">
+      <p>Dear <span class="name1"></span>,<img src="img/stamp.png" width=50px height=50px class="stamp"
+          alt="image of stamp"></p>
 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum.</p>
+        <p><p>Sincerely, 
+          <p>"The Easter Bunny"</p></p></p>
+    </div>
+  </div>
+</body>
 
-      </div>
+</html>
